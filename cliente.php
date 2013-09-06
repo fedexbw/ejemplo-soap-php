@@ -24,8 +24,8 @@ if(isset($id)){
         $client = new SoapClient(null, array(
           'location' => "http://localhost/ejemplo-soap-php/servidor.php",
           'uri'      => "urn:pc_SOAP",                     // se hace referencia a la clase que se solicita instanciar
-           'login'=>'fede',                                     // este es el token del nombre de usuario para el acceso al web service
-          'password'=>'123456'));                       // este es el token del password de usuario para el acceso al web service
+           'login'=>'usuarioPrueba',                                     // este es el token del nombre de usuario para el acceso al web service, puedes poner un usuario cualquiera
+          'password'=>'123456'));                       // este es el token del password de usuario para el acceso al web service, puedes poner una contraseña cualqueira
         try{
             $result=$client->getUser($id);
         }  catch (SoapFault $exp){
