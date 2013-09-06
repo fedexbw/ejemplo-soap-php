@@ -57,6 +57,7 @@ $server = new SoapServer(
         null, // no se especifica WSDL
         array('uri' => 'urn:ejemplo-soap-php') // se debe especificar el URI
         );
+// se setea la clase que será accedida en el servicio web
 $server->setClass('pc_SOAP');
 // metodo para la atencion de los llamados al servidor
 $server->handle();
