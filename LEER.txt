@@ -1,0 +1,5 @@
+Este es m i primer aporte en github, sepan disculpar que no pude crear el proyecto ordenamente en directorios,
+para poder correr este ejemplo solo bastara con crear un directorio en /var/www, y desde tu navegador acceder a
+a tu servidor local y al archivo cliente.php
+Saludos.
+José Federico Liquin
