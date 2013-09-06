@@ -5,7 +5,7 @@
 // Esta funcion corresponde a la logica de autenticacion de usuarios
 function autenticacion_usuario($usuario, $contrasenia) {
     // este es un ejemplo basico de autenticación, podria conectarse a una base de datos y validar la autenticacion de usuarios inclusive con encriptacion de contraseña
-    if (($usuario=='fede')&&($contrasenia=='123456')) {
+    if (($usuario=='usuarioPrueba')&&($contrasenia=='123456')) {
         return true;
     } else {
         return false;
